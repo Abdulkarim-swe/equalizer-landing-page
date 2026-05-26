@@ -49,7 +49,7 @@ Initially, I relied heavily on fixed `width` and `height` for my containers to m
 }
 ```
 
-However, I realized this breaks the responsive nature of the web. I refactored my approach to let the content dictate the size, utilizing `max-width` and trusting Flexbox to handle the layout naturally.
+However, I realized that this approach breaks the responsive nature of the web and leads to writing too much CSS. Instead of completely refactoring this first project, I decided to keep the code as a baseline to measure my future progress. My biggest takeaway for my next challenges is to let the content dictate the size by utilizing max-width and trusting Flexbox to distribute space naturally, rather than forcing rigid dimensions.
 
 ### Continued development
 
